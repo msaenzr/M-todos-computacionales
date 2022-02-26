@@ -1,0 +1,627 @@
+
+NOMBRE CARPETA
+
+10135-90505 - Kevin Felipe Romero Caicedo - 8 de febrero de 2022 2358
+
+NOMBRE ARCHIVO PYTHON
+
+Numeros complejos.py
+e- \nRESULTADO DEL PROGRAMA\n
+ginger
+John
+Cabrera
+Bienvenido sr. John Cabrera
+Eduardo
+19
+(3, 5)
+(16, 7)
+(-2, -4)
+(1, -4)
+(34, 34)
+(11, 75)
+1.5862068965517242+-0.9655172413793104i
+0.48+-0.14i
+
+NOMBRE CARPETA
+
+12318-90505 - Julian Andres Rojas Tapias - 8 de febrero de 2022 1822
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2.py
+e- \nRESULTADO DEL PROGRAMA\n
+Bienvenido al programa de los numero complejos, acontinuación daremos ejemplos de sus operaciones: 
+Primero definiremos 4 numeros complejos distintos y los llamaremos con z y el subindice correspondiente del 1 al 4
+Estos numeros son:
+z1 = 3 + 4i
+z2 = 5 + 3i
+z3 = 8 + 1i
+z4 = 9 + 5i
+ahora trabajaremos sobre la suma con dos ejemplos
+suma z1 + z2 = 
+el numero resultante es 8 + 7i
+suma z3 + z4 = 
+el numero resultante es 17 + 6i
+ahora trabajaremos sobre la resta con dos ejemplos
+resta z1 - z2 = 
+el numero resultante es -2 + 1i
+resta z3 - z4 = 
+el numero resultante es -1 + -4i
+ahora trabajaremos sobre la norma con dos ejemplos
+la norma de z1 es = 
+la norma del numero complejo ingresado es 5.0
+la norma de z2 es =
+la norma del numero complejo ingresado es 5.830951894845301
+ahora trabajaremos sobre el producto con dos ejemplos
+producto z1 * z2 = 
+el numero resultante del producto es 3 + 18i
+resta z3 * z4 = 
+el numero resultante del producto es 67 + 80i
+ahora trabajaremos sobre la división con dos ejemplos
+producto z1 / z2 = 
+el numero resultante del producto es 27 -18i
+el numero resultante es (27 + -18i)/34
+resta z3 / z4 = 
+el numero resultante del producto es 77 -80i
+el numero resultante es (77 + -80i)/106
+
+NOMBRE CARPETA
+
+12823-90505 - Juan Camilo Reales Crespo - 8 de febrero de 2022 2105
+
+NOMBRE ARCHIVO PYTHON
+
+actividad2juan_reales.py
+e- \nRESULTADO DEL PROGRAMA\n
+John
+Cabrera
+4+3i
+6+6i
+0+-1i
+-2+-4i
+2+6i
+3+14i
+0.375+-0.125i
+0.0325+-0.015i
+3.0
+
+NOMBRE CARPETA
+
+13148-90505 - Julian David Klinger Bastidas - 8 de febrero de 2022 2048
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2_MetodosC.py
+e- \nRESULTADO DEL PROGRAMA\n
+EJEMPLOS
+Todos los numeros estan en formato (parte_real , parte_imaginaria)
+(5,2) + (1,1) =  (6, 3)
+(5,2) - (1,1) =  (4, 1)
+(5,2) x (1,1) =  (3, 7)
+(5,2) / (1,1) =  (5.0, 3.5)
+norma (5,2) =  5.39
+(5,6) + (9,2) =  (14, 8)
+(5,6) - (9,2) =  (-4, -3)
+(5,6) x (9,2) =  (33, 64)
+(5,6) / (9,2) =  (0.65, 0.75)
+norma (9,2) =  9.22
+
+NOMBRE CARPETA
+
+13581-90505 - Johan Stiven Ariza Mendez - 8 de febrero de 2022 2137
+
+NOMBRE ARCHIVO PYTHON
+
+Opera_num_complejos_Johan_Ariza.py
+e- \nRESULTADO DEL PROGRAMA\n
+La suma de los numeros complejos para la pareja_1 es:  (6+5j)
+La resta de los numeros complejos para la pareja_1 es:  (2-1j)
+El producto de los numeros complejos para la pareja_1 es:  (2+16j)
+El cociente de los numeros complejos para la pareja_1 es:  (1.0769230769230769-0.6153846153846155j)
+La Norma de numero complejo 1 es:  4.47213595499958
+La Norma del numero complejo 2 es:  3.605551275463989 
+
+La suma de los numeros complejos para la pareja_2 es:  (9+5j)
+La resta de los numeros complejos para la pareja_2 es:  (-3-1j)
+El producto de los numeros complejos para la pareja_2 es:  (12+21j)
+El cociente de los numeros complejos para la pareja_2 es:  (0.5333333333333333+0.06666666666666667j)
+La Norma del numero complejo 1 es:  3.605551275463989
+La Norma del numero complejo 2 es:  6.708203932499369
+
+NOMBRE CARPETA
+
+14115-90505 - Hugo Daniel Perlaza Blandon - 8 de febrero de 2022 2154
+
+NOMBRE ARCHIVO PYTHON
+
+Hugopmetodoscomp.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+14184-90505 - Gerson Sair Ponce Solano - 8 de febrero de 2022 2250
+
+NOMBRE ARCHIVO PYTHON
+
+GersonPonce_Actividad2_Complejos.py
+e- \nRESULTADO DEL PROGRAMA\n
+5 3
+7 3
+5 -2
+5 -2
+3 28
+12 36
+0.04878048780487805 0.5609756097560976
+0.2 0.6
+
+NOMBRE CARPETA
+
+16366-90505 - Daniel Alejandro Novoa Casallas - 8 de febrero de 2022 2351
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad_2_Daniel_Novoa.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+17028-90505 - Daniel Andres Fajardo Poveda - 8 de febrero de 2022 2102
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad_2_Daniel_Fajardo_Metodos_Computacionales.py
+e- \nRESULTADO DEL PROGRAMA\n
+La suma resultante es 1.0+3.0i
+La suma resultante es 2.0+1.0i
+La resta resultante es -1.0+1.0i
+La resta resultante es 0.0+1.0i
+La norma es 1.0
+La norma es 1.4142135623730951
+El producto resultante es 1+2i
+El producto resultante es 0+1i
+El cociente resultante es 0.0+1.0i
+El cociente resultante es 1.5+0.5i
+
+NOMBRE CARPETA
+
+17763-90505 - Camilo Andres Moreno Alfaro - 8 de febrero de 2022 2106
+
+NOMBRE ARCHIVO PYTHON
+
+act2 mÃ©todos.py
+e- \nRESULTADO DEL PROGRAMA\n
+Ejemplos suma:
+(5 + 12i) + (7 + 8i) = 12 + 20i
+(4 + 0.5i) + (20 - 21i) = 24 - 20.5i
+
+Ejemplos resta:
+(5 + 12i) - (7 + 8i) = -2 + 4i
+(4 + 0.5i) - (20 - 21i) = -16 + 21.5i
+ 
+Ejemplos multiplicacion:
+(5 + 12i)(7 + 8i) = -61 + 124i
+(4 + 0.5i)(20 - 21i) = 90.5 - 74.0i
+
+Ejemplos cociente:
+(5 + 12i)/(7 + 8i) = 1.1592920353982301 + 0.3893805309734513i
+(4 + 0.5i)/(20 - 21i) = 0.08263971462544589 + 0.1117717003567182i
+
+Ejemplos norma
+|5 + 12i| = 13.0
+|20 - 21i| = 29.0
+
+NOMBRE CARPETA
+
+18568-90505 - Benjamin MuÃ±oz Hurtado - 8 de febrero de 2022 2114
+
+NOMBRE ARCHIVO PYTHON
+
+Metodos complementaria tarea 2.py
+e- \nRESULTADO DEL PROGRAMA\n
+3 + 7i
+5 + 8i
+7 + 8i
+1 + -2i
+2 + 13i
+6 + 120i
+1.5384615384615385 + 1.3076923076923077i
+0.37735849056603776 + -0.32075471698113206i
+5.0
+1.4142135623730951
+
+NOMBRE CARPETA
+
+20183-90505 - Alejandro Guerrero Pantoja - 8 de febrero de 2022 2150
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad_2_Alejandro_Guerrero.py
+e- \nRESULTADO DEL PROGRAMA\n
+Pruebas de las operaciones 
+ 
+Prueba de la Suma: 
+ 
+siendo los numeros 2+2i y 1-1i El resultado de su suma es: 3+1i
+
+<__main__.complejos object at 0x00000273F45B4448>
+siendo los numeros -4+7i y 1-8i El resultado de su suma es: -3-1i
+
+<__main__.complejos object at 0x00000273F45B4448>
+Prueba de la Resta: 
+ 
+Siendo los numeros 2+2i y 1-1i El resultado de su resta es: 1+3i
+
+<__main__.complejos object at 0x00000273F45B4488>
+Siendo los numeros -4+7i y 1-8i El resultado de su resta es: -5+15i
+
+<__main__.complejos object at 0x00000273F45B4388>
+Prueba del Producto: 
+ 
+Siendo los numeros 2+2i y 1-1i El resultado del producto es: 4-4i
+
+<__main__.complejos object at 0x00000273F45B4408>
+Siendo los numeros -4+7i y 1-8i El resultado del producto es: 52+25i
+
+<__main__.complejos object at 0x00000273F45B44C8>
+Prueba del Cociente: 
+ 
+Siendo los numeros 2+2i y 1-1i El resultado de la division es: 0.0+2.0i
+
+<__main__.complejos object at 0x00000273F45B4548>
+Siendo los numeros -4+7i y 1-8i El resultado de la division es: -0.92-0.38i
+
+<__main__.complejos object at 0x00000273F45B4588>
+Prueba de la Norma: 
+ 
+siendo el numero 2+2i El resultado de la norma es: 2.83
+
+2.8284271247461903
+siendo el numero 1-1i El resultado de la norma es: 1.41
+
+1.4142135623730951
+
+NOMBRE CARPETA
+
+21859-90505 - Ana Sofia Castellanos Mosquera - 8 de febrero de 2022 2226
+
+NOMBRE ARCHIVO PYTHON
+
+Taller2Modificado.py
+e- \nRESULTADO DEL PROGRAMA\n
+Ejemplo 1: operacion entre 5 + 4i y 3 + 2i
+El resultado de suma es 8 + 6i
+El resultado de resta es 2 + 2i
+El resultado de multiplicacion es 7 + 22i
+El resultado de norma es 6.4031242374328485
+El resultado de cociente es 1.7692307692307692 + 0.15384615384615385i
+Ejemplo 2: operacion entre -7 + 9i y 5 + -2i
+El resultado de suma es -2 + 7i
+El resultado de resta es -12 + 11i
+El resultado de multiplicacion es -17 + 59i
+El resultado de norma es 11.40175425099138
+El resultado de cociente es -1.8275862068965518 + 1.0689655172413792i
+
+NOMBRE CARPETA
+
+22036-90505 - Andres Felipe Melgarejo Sarmiento - 8 de febrero de 2022 1820
+
+NOMBRE ARCHIVO PYTHON
+
+Taller_2.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+22036-90505 - Andres Felipe Melgarejo Sarmiento - 8 de febrero de 2022 2145
+
+NOMBRE ARCHIVO PYTHON
+
+Taller_2_def.py
+e- \nRESULTADO DEL PROGRAMA\n
+Pruebas suma: 
+(4, 3)
+(15, 5)
+Pruebas resta: 
+(2, 3)
+(1.1, -0.3)
+Pruebas producto: 
+(21, 74)
+(8, 38)
+Pruebas cociente: 
+(1.8235294117647058, -1.2941176470588236)
+(0.85, -0.7)
+Pruebas norma: 
+7.21
+9.06
+
+NOMBRE CARPETA
+
+2212-90505 - Veronica Aya Serna - 8 de febrero de 2022 2030
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2_vaya.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+22220-90505 - Alejandro Pincay MuÃ±oz - 8 de febrero de 2022 1823
+
+NOMBRE ARCHIVO PYTHON
+
+AlejandroPincay.py.py
+e- \nRESULTADO DEL PROGRAMA\n
+La suma de a1 y a2 es 4 + 6i
+La suma de a3 y a4 es 4 + 3i
+La resta de a1 y a2 es (-2) + (-2)i
+La resta de a3 y a4 es (-2) + (-7)i
+El producto de a1 y a2 es (-2) + (-2)i
+El producto de a3 y a4 es (-2) + (-7)i
+El cociente de a1 y a2 es 0.44 + 0.08i
+El cociente de a3 y a4 es -0.20588235294117646 + -0.3235294117647059i
+La norma de a1 es 3.0
+La norma de a2 es 13.0
+
+NOMBRE CARPETA
+
+22268-90505 - Ana Sofia Reyes Quintana - 8 de febrero de 2022 1839
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+22891-90505 - David Eduardo Cepeda Riveros - 8 de febrero de 2022 2035
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2.py
+e- \nRESULTADO DEL PROGRAMA\n
+Suma
+4+(6)i
+12+(14)i
+Resta
+-2+(-2)i
+-4+(-4)i
+Producto
+-5+(10)i
+-13+(82)i
+Cociente
+0.44+(0.08)i
+0.73+(0.02)i
+Norma
+(2.24, 5.0)
+(7.81, 10.63)
+
+NOMBRE CARPETA
+
+23529-90505 - David Lopez Osorio - 8 de febrero de 2022 1831
+
+NOMBRE ARCHIVO PYTHON
+
+Act class.py
+e- \nRESULTADO DEL PROGRAMA\n
+3+5i
+5+3i
+-1+-1i
+-3+-1i
+-4+7i
+2+6i
+0.6153846153846154+0.07692307692307693i
+0.3+0.1i
+2.23606797749979
+3.605551275463989
+
+NOMBRE CARPETA
+
+23565-90505 - Gerlein Santiago Beltran Diaz - 8 de febrero de 2022 2237
+
+NOMBRE ARCHIVO PYTHON
+
+actividad complementaria.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+2552-90505 - Sharol Michel Gutierrez Obeso - 8 de febrero de 2022 2104
+
+NOMBRE ARCHIVO PYTHON
+
+Taller 2 - Complementaria de metodos.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE ARCHIVO PYTHON
+
+Taller 2 - Complementaria de metodos.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+25531-90505 - Lina Paola Rodriguez Rodriguez - 8 de febrero de 2022 2328
+
+NOMBRE ARCHIVO PYTHON
+
+Complejos.py
+e- \nRESULTADO DEL PROGRAMA\n
+4-3i
+6 + 6i
+6 + 9i
+-2 + 7i
+0 -2i
+-2 -3i
+13 + 1i
+1 + 18i
+-10 + 24i
+-0.20588235294117646 + 0.3235294117647059i
+0.68 + -0.24i
+0.5 + 0.0i
+La norma #1 es 2.23606797749979 y la norma del #2 es 5.830951894845301
+La norma #1 es 3.605551275463989 y la norma del #2 es 5.0
+La norma #1 es 3.605551275463989 y la norma del #2 es 7.211102550927978
+
+NOMBRE CARPETA
+
+26832-90505 - Ramon Alejandro Tamara Becerra - 8 de febrero de 2022 1940
+
+NOMBRE ARCHIVO PYTHON
+
+actividad_complex_ramon_tamara.py
+e- \nRESULTADO DEL PROGRAMA\n
+suma
+[(4, 6), '4 + (6)i']
+[(12, 14), '12 + (14)i']
+resta
+[(-2, -2), '-2 + (-2)i']
+[(-2, -2), '-2 + (-2)i']
+producto
+[(-5, 10), '-5 + (10)i']
+[(-13, 82), '-13 + (82)i']
+division
+[(0.44, 0.08), '0.44 + (0.08)i']
+[(0.735, 0.018), '0.735 + (0.018)i']
+norma
+2.236
+5.0
+conjugado
+[(1, -2), '1 + (-2)i']
+[(3, -4), '3 + (-4)i']
+argumento
+1.107
+0.927
+
+NOMBRE CARPETA
+
+27961-90505 - Valeria Torres Gomez - 8 de febrero de 2022 2117
+
+NOMBRE ARCHIVO PYTHON
+
+actividad_2_202110363.py
+e- \nRESULTADO DEL PROGRAMA\n
+3+5i
+5+8i
+-1-1i
+-1-2i
+-4+7i
+-9+19i
+0.6153846153846154+0.07692307692307693i
+0.6176470588235294-0.029411764705882353i
+2.23606797749979
+3.605551275463989
+
+NOMBRE CARPETA
+
+28872-90505 - Thomas Gomez Serpa - 8 de febrero de 2022 1817
+
+NOMBRE ARCHIVO PYTHON
+
+Untitled.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+28872-90505 - Thomas Gomez Serpa - 8 de febrero de 2022 1845
+
+NOMBRE ARCHIVO PYTHON
+
+Untitled.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+3753-90505 - Santiago Garcia Rincon - 8 de febrero de 2022 2051
+
+NOMBRE ARCHIVO PYTHON
+
+Complejos_Santiago.py.py
+e- \nRESULTADO DEL PROGRAMA\n
+3+5i
+7+9i
+1-2i
+-2-2i
+-4+7i
+-15+53i
+1.3414634146341464+0.07317073170731707i
+2.8+-0.4i
+
+NOMBRE CARPETA
+
+5696-90505 - Nicolas Lara Gomez - 8 de febrero de 2022 2128
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad 2.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+6550-90505 - Maria Isabella Hernandez Charry - 8 de febrero de 2022 2242
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad 2 - Complejos.py
+e- \nRESULTADO DEL PROGRAMA\n
+(12, 7)
+(2, -4j)
+(-4, 48)
+(-1.8571428571428572-1.6428571428571428j)
+
+NOMBRE CARPETA
+
+6713-90505 - Manuel Esteban Fuentes Serna - 8 de febrero de 2022 2053
+
+NOMBRE ARCHIVO PYTHON
+
+Tarea 2.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+7289-90505 - Mauricio Alejandro Garcia Molina - 8 de febrero de 2022 2235
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad2.py
+e- \nRESULTADO DEL PROGRAMA\n
+Suma:
+10.666666666666666-18.0i
+26.0+36.0i
+Resta:
+-12.0-26.0i
+0.0+0.0i
+Producto:
+330.3333333333333+10.666666666666657i
+143.0-50.0i
+Cociente:
+0.48101983002832865+0.19716713881019832i
+1.7798742138364778-0.7295597484276729i
+Conjugado:
+2.0+7.0i
+8.666666666666666+11.0i
+Calculo Norma:
+La norma del número z_4: 12.0+17.0i, es igual a 20.808652046684813
+La norma del número z_2: 14.0+19.0i, es igual a 23.600847442411894
+
+NOMBRE CARPETA
+
+9499-90505 - Laura Gerley Rubiano Cetina - 8 de febrero de 2022 2204
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad_2_MC_1_2022_1.ipynb
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE ARCHIVO PYTHON
+
+Actividad_2_MC_1_2022_1.py
+e- \nRESULTADO DEL PROGRAMA\n
+
+NOMBRE CARPETA
+
+9731-90505 - Laura Hederich Pelaez - 8 de febrero de 2022 1807
+
+NOMBRE ARCHIVO PYTHON
+
+clase2.py
+e- \nRESULTADO DEL PROGRAMA\n
