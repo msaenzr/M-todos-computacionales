@@ -3,19 +3,17 @@ import numpy as np
 from numpy.linalg import det, inv
 from sympy import *
 
-
-"""Realizar un programa en Python en formato .py que calcule la inversa,
- para ello use numpy (+10pts) y sympy (+10pts), use la función inversa definida
-  en los módulos de sympy,  numpy y por el método de la adjunta. +20"""
-
+#Inversa de una matriz por librería Numpy
 def inv_numpy(m_num):
     mf = inv(m_num)
     return mf
 
+#Inversa de una matriz por librería Sympy
 def inv_sympy(m_sim):
     mf = m_sim.inv()
     return mf
 
+#Inversa de una matriz por método de la adjunta utilizando la librería Sympy
 def inv_adjunta(m_sim,m,n):
 
     adj = m_sim.adjugate()
@@ -24,6 +22,8 @@ def inv_adjunta(m_sim,m,n):
         for j in range(0,n):
             m_sim[i,j] = adj[i,j]/d
     return m_sim
+
+#Función para recibir y retornar los datos.
 
 def prom_inicio():
 
@@ -49,8 +49,6 @@ def prom_inicio():
         print(inv_sympy(m_sim))
         print("La matriz inversa por el método de la adjunta es: ")
         print(inv_adjunta(m_sim,m,n))
-
-        
 
 #Llamar función principal
 prom_inicio()
