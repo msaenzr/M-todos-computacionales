@@ -1,4 +1,3 @@
-from re import M
 import numpy as np
 from numpy.linalg import det, inv
 from sympy import *
@@ -24,7 +23,6 @@ def inv_adjunta(m_sim,m,n):
     return m_sim
 
 #Función para recibir y retornar los datos.
-
 def prom_inicio():
 
     m = int(input("Ingrese el número de filas: "))
