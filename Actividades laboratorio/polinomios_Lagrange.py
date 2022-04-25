@@ -1,4 +1,3 @@
-from cProfile import label
 from symtable import Symbol
 import pandas as pd
 import numpy as np
@@ -11,9 +10,7 @@ import random as rd
 #Implementación con Numpy.
 X = np.array([205,210,215])
 Y = np.array([1274.3,1907.7,2105.9])
-#data ={'T':[205,210,215], 'Psat':[1274.3,1907.7,2105.9]}
-#data = {'T':[-1.5,-0.75,0,0.75,1.5], 'Psat':[-14.1014,-0.931596,0,0.931596,14.1014]}
-data = pd.read_csv("vapor_saturado.csv",delimiter=";")
+data = pd.read_csv("datos_actividad.csv",delimiter=";")
 
 def l_0(x,X):
     return (x-X[1])*(x-X[2])/((X[0]-X[1])*(X[0]-X[2]))
@@ -57,34 +54,51 @@ def p_lagrange(data,x,key_1,key_2):
         p_l+=(y_j*l_i)
     return p_l
 
-#Algoritmo para obtener 50 datos aleatorios entre los rangos escogidos para cada interpolación.
+#Algoritmo para obtener n datos aleatorios entre los rangos escogidos para cada interpolación.
 
-def datos_intermedios(data,min,max,key_1,key_2):
+def datos_intermedios(data,min,max,key_1,key_2,n):
     l_x=[]
     l_y=[]
-    for n in range(3):
+    for n in range(n):
         x = rd.randint(min,max)
         y = p_lagrange(data,x,key_1,key_2)
-        l_x.append(x)
-        l_y.append(y)
+        if y>0:
+            l_x.append(x)
+            l_y.append(y)
     return (l_x,l_y)
 
 # Análisis tabla Interpolación de P vs T
 
-dat = datos_intermedios(data,0,373,'T','Psat')
-print(dat)
-print(p_lagrange(data,35,'T','Psat'))
+#dat = datos_intermedios(data,0,373,'T','Psat',50)
+#print(dat)
 plt.plot(data['T'],data['Psat'],c='Violet')
 plt.legend(["Original"],loc="upper left")
 plt.title("Tabla Interpolación de P vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Presión Saturada (KPa)")
-plt.scatter(dat[0],dat[1],c='Black')
 plt.show()
 
-"""Tabla Interpolación de P vs T, utilizando valores intermedios de temperatura. Para esto generalice el programa del punto 1. +15"
-Tabla Interpolación de sg vs T.+5
-Tabla Interpolación de sf vs T.+5
+#plt.plot(dat[0],dat[1],c='Black')
+#plt.show()
+
+#Análisis tabla Interpolación de Sg vs T
+plt.plot(data['T'],data['Sg'],c='Pink')
+plt.legend(["Original"],loc="upper left")
+plt.title("Tabla Interpolación de Sg vs T")
+plt.xlabel("Temperatura (°C)")
+plt.ylabel("Entropía (kJ/kg*K)")
+plt.show()
+
+#Análisis tabla Interpolación de Sf vs T
+plt.plot(data['T'],data['Sf'],c='Blue')
+plt.legend(["Original"],loc="upper left")
+plt.title("Tabla Interpolación de Sf vs T")
+plt.xlabel("Temperatura (°C)")
+plt.ylabel("Entropía (kJ/kg*K)")
+plt.show()
+
+
+"""
 Gráficas en formato png.  Los ejes deben aparecer debidamente identificados y el tamaño de las etiquetas debe ser visible. +10
 Análisis de resultados y conclusiones. +5
 """
