@@ -1,4 +1,5 @@
 from symtable import Symbol
+from wsgiref import handlers
 import pandas as pd
 import numpy as np
 import sympy as sp
@@ -54,51 +55,47 @@ def p_lagrange(data,x,key_1,key_2):
         p_l+=(y_j*l_i)
     return p_l
 
-#Algoritmo para obtener n datos aleatorios entre los rangos escogidos para cada interpolación.
+#Valores escogidos para realizar el análisis de todas las gráficas
 
-def datos_intermedios(data,min,max,key_1,key_2,n):
-    l_x=[]
-    l_y=[]
-    for n in range(n):
-        x = rd.randint(min,max)
-        y = p_lagrange(data,x,key_1,key_2)
-        if y>0:
-            l_x.append(x)
-            l_y.append(y)
-    return (l_x,l_y)
+tem_inter=[100, 138, 241, 145, 308, 94, 72, 87, 182]
 
 # Análisis tabla Interpolación de P vs T
 
-#dat = datos_intermedios(data,0,373,'T','Psat',50)
-#print(dat)
 plt.plot(data['T'],data['Psat'],c='Violet')
 plt.legend(["Original"],loc="upper left")
 plt.title("Tabla Interpolación de P vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Presión Saturada (KPa)")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Psat'),c='Black')
+plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.grid()
 plt.show()
 
-#plt.plot(dat[0],dat[1],c='Black')
-#plt.show()
-
 #Análisis tabla Interpolación de Sg vs T
+
 plt.plot(data['T'],data['Sg'],c='Pink')
 plt.legend(["Original"],loc="upper left")
 plt.title("Tabla Interpolación de Sg vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Entropía (kJ/kg*K)")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sg'),c='Black')
+plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.grid()
 plt.show()
 
 #Análisis tabla Interpolación de Sf vs T
+
 plt.plot(data['T'],data['Sf'],c='Blue')
-plt.legend(["Original"],loc="upper left")
 plt.title("Tabla Interpolación de Sf vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Entropía (kJ/kg*K)")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sf'),c='Black')
+plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.grid()
 plt.show()
 
+#Análisis de resultados y conclusiones
 
-"""
-Gráficas en formato png.  Los ejes deben aparecer debidamente identificados y el tamaño de las etiquetas debe ser visible. +10
-Análisis de resultados y conclusiones. +5
-"""
+"""Como se puede observar en las gráficas, al evaluar puntos 
+
+
