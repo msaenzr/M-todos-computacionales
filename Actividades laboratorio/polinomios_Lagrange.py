@@ -1,5 +1,3 @@
-from symtable import Symbol
-from wsgiref import handlers
 import pandas as pd
 import numpy as np
 import sympy as sp
@@ -57,45 +55,57 @@ def p_lagrange(data,x,key_1,key_2):
 
 #Valores escogidos para realizar el análisis de todas las gráficas
 
-tem_inter=[100, 138, 241, 145, 308, 94, 72, 87, 182]
+tem_inter=[100, 138, 241, 145, 308, 94, 72, 87, 182,88]
 
 # Análisis tabla Interpolación de P vs T
 
 plt.plot(data['T'],data['Psat'],c='Violet')
+plt.plot(data['T'],p_lagrange(data,data['T'],'T','Psat'),'--',c='Black')
 plt.legend(["Original"],loc="upper left")
-plt.title("Tabla Interpolación de P vs T")
+plt.title("Interpolación de P vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Presión Saturada (KPa)")
-plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Psat'),c='Black')
-plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Psat'),c='darkred',s=25)
+plt.legend(["Original","Interpolación","Valores Intermedios"],loc="upper left")
 plt.grid()
 plt.show()
 
 #Análisis tabla Interpolación de Sg vs T
 
 plt.plot(data['T'],data['Sg'],c='Pink')
+plt.plot(data['T'],p_lagrange(data,data['T'],'T','Sg'),'--',c='Black')
 plt.legend(["Original"],loc="upper left")
-plt.title("Tabla Interpolación de Sg vs T")
+plt.title("Interpolación de Sg vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Entropía (kJ/kg*K)")
-plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sg'),c='Black')
-plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sg'),c='darkred',s=25)
+plt.legend(["Original","Interpolación","Valores Intermedios"],loc="upper left")
 plt.grid()
 plt.show()
 
 #Análisis tabla Interpolación de Sf vs T
 
 plt.plot(data['T'],data['Sf'],c='Blue')
-plt.title("Tabla Interpolación de Sf vs T")
+plt.plot(data['T'],p_lagrange(data,data['T'],'T','Sf'),'--',c='Black')
+plt.title("Interpolación de Sf vs T")
 plt.xlabel("Temperatura (°C)")
 plt.ylabel("Entropía (kJ/kg*K)")
-plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sf'),c='Black')
-plt.legend(["Original","Valores Intermedios"],loc="upper left")
+plt.scatter(tem_inter,p_lagrange(data,tem_inter,'T','Sf'),c='darkred',s=25)
+plt.legend(["Original","Interpolación","Valores Intermedios"],loc="upper left")
 plt.grid()
 plt.show()
 
 #Análisis de resultados y conclusiones
-
-"""Como se puede observar en las gráficas, al evaluar puntos 
-
+print("\nAnálisis de resultados y conclusiones: \n")
+print("Como se puede observar en las gráficas, al evaluar puntos entre \
+el intervalo [0.01,373.95] correspondientes a valores de la temperatura, \
+se observa que los resultados debido a la interpolación varian considerablemente respecto a la \
+gráfica original, ya que la interpolación empieza a fallar en cierto \
+grado de la función. Por lo tanto, el margen de error o su dispersión se \
+vuelve cada vez más grande. Esto se puede evidenciar en la gráfica Sf vs T, donde \
+se presenta un valor negativo de la función, lo que resultaría en un valor \
+negativo de la entropía que no es posible en la teoría y en la práctica. Sin embargo, en algunos valores, como \
+en la gráfica P vs T, los resultados se logran ajustar a la gráfica original demostrando que para \
+ciertos valores, la interpolación es adecuada. En ese sentido, se determina que la eficacia de la interpolación \
+polinómica de Lagrange se debe tanto a los puntos escogidos, como a la cantidad de estos.")
 
