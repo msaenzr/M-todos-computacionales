@@ -1,6 +1,3 @@
-from this import d
-
-
 X =[2,4,5,10,7,3,2,4]
 Y = [34,45,67,21,34,45,33,90]
 
@@ -12,12 +9,10 @@ def pendiente(X,Y):
     s_x2 = 0
     s_xy = 0
     for i in range(N):
-        x_i = X[i]
-        y_i = Y[i]
-        s_x += x_i
-        s_y += y_i
-        s_x2 += (x_i)**2
-        s_xy += (x_i*y_i)
+        s_x += X[i]
+        s_y += Y[i]
+        s_x2 += (X[i])**2
+        s_xy += (X[i]*Y[i])
     m = (N*s_xy - s_x*s_y)/(N*s_x2 - (s_x)**2)
     return m
 
@@ -29,12 +24,10 @@ def punto_c(X,Y):
     s_x2 = 0
     s_xy = 0
     for i in range(N):
-        x_i = X[i]
-        y_i = Y[i]
-        s_x += x_i
-        s_y += y_i
-        s_x2 += (x_i)**2
-        s_xy += (x_i*y_i)
+        s_x += X[i]
+        s_y += Y[i]
+        s_x2 += (X[i])**2
+        s_xy += (X[i]*Y[i])
     b = (s_x2*s_y - s_x*s_xy)/(N*s_x2 - (s_x)**2)
     return b
 
@@ -78,6 +71,19 @@ def inc_b():
 #Función para calcular coeficiente de correlación
 def coeficiente_c(X,Y):
     r = 0
+    N =len(X)
+    s_xy = 0
+    s_x = 0
+    s_y =0
+    s_x2=0
+    s_y2 =0
+    for i in range(N):
+        s_x += X[i]
+        s_y += Y[i]
+        s_xy += (X[i]*Y[i])
+        s_x2 += (X[i])**2
+        s_y2 += (Y[i])**2
+    r = (N*s_xy - s_x*s_y)/(((N*s_x2 - (s_x)**2)**(1/2))*((N*s_y2 - (s_y)**2)**(1/2)))
     return r
 
 print(pendiente(X,Y))
