@@ -1,6 +1,3 @@
-X =[2,4,5,10,7,3,2,4]
-Y = [34,45,67,21,34,45,33,90]
-
 #Función para calcular la pendiente
 def pendiente(X,Y):
     N = len(X)
@@ -57,7 +54,7 @@ def inc_m(X,Y,m,b):
     return d_m
 
 #Función para calcular la incertidumbre del punto de corte
-def inc_b():
+def inc_b(X,Y):
     N = len(X)
     s_x =0
     s_x2 = 0
@@ -85,5 +82,3 @@ def coeficiente_c(X,Y):
         s_y2 += (Y[i])**2
     r = (N*s_xy - s_x*s_y)/(((N*s_x2 - (s_x)**2)**(1/2))*((N*s_y2 - (s_y)**2)**(1/2)))
     return r
-
-print(pendiente(X,Y))
